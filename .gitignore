@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# Analysis outputs
+analysis_output.txt
+Report_Concert_Tour_Analysis.md
+# plots/ # Uncomment if you don't want to push plots
