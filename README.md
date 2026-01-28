@@ -1,18 +1,18 @@
-# Concert Tour Analysis - Exploratory Data Analysis
+# Concert Tour Analysis - EDA
 
-This project performs a comprehensive Exploratory Data Analysis (EDA) on global concert tour data. It focuses on cleaning "dirty" datasets, engineering features, and performing statistical hypothesis testing to understand industry trends.
+This project provides a comprehensive Exploratory Data Analysis (EDA) of global concert tours, focusing on data cleaning, feature engineering, and statistical validation of industry metrics.
 
 ## Key Features
-- **Data Sanitization**: Cleaning financial metrics using Regex.
-- **Missing Value Imputation**: Artist-specific median filling.
-- **Statistical Testing**: Pearson Correlation (Volume vs Revenue) and T-Tests (Era comparison).
-- **Visualization**: Detailed plots for revenue distribution, efficiency, and tour durations.
+- **Data Cleaning**: Sanitized "dirty" financial data (gross revenue, shows, rankings) using Regex and artist-specific median imputation.
+- **Feature Engineering**: Derived efficiency metrics like *Gross per Show* and temporal features (*Tour Duration*, *Starting Era*).
+- **Statistical Analysis**: Validated industry hypotheses using Pearson correlation (Volume vs. Revenue) and Welch’s T-Tests (Market era shifts).
+- **Visualization**: Generated automated plots for revenue distributions, artist career stats, and performance benchmarks.
 
 ## Project Structure
-- `data.py`: Main processing and analysis script.
-- `convert_to_pdf.py`: Script to generate the final report.
+- `data.py`: Core analysis and processing pipeline.
+- `convert_to_pdf.py`: Report generation script.
 - `Report_Concert_Tour_Analysis.pdf`: The final analytical report.
-- `plots/`: Visualizations generated during analysis.
+- `plots/`: Visual output from the EDA.
 
-## Analysis Results
-Detailed findings are available in the **Report_Concert_Tour_Analysis.pdf** file.
+## Summary of Results
+The analysis confirms a strong correlation (r=0.865) between show volume and total revenue, while highlighting that "Brand Premium" allows specific outliers to achieve higher efficiency. Automated cleaning was critical for accurate statistical testing.
