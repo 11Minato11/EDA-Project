@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Concert Tour Analysis - EDA
 
 This project provides a comprehensive Exploratory Data Analysis (EDA) of global concert tours, focusing on data cleaning, feature engineering, and statistical validation of industry metrics.
@@ -16,3 +17,7 @@ This project provides a comprehensive Exploratory Data Analysis (EDA) of global 
 
 ## Summary of Results
 The analysis confirms a strong correlation (r=0.865) between show volume and total revenue, while highlighting that "Brand Premium" allows specific outliers to achieve higher efficiency. Automated cleaning was critical for accurate statistical testing.
+=======
+# EDA-Project
+A Python-based EDA of global concert tours. It cleans "dirty" financial data using Regex, performs artist-specific median imputation, and engineers features like Gross per Show. Validates market trends via statistical testing (Pearson correlation, T-tests) and Seaborn visualizations. Outputs a professional PDF analysis report.
+>>>>>>> 8554c74fbea5172e23f225203c92ed9d85cb0721
